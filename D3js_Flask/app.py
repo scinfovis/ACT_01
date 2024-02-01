@@ -10,7 +10,7 @@ def main():
     return render_template("index.html")
 
 
-@app.route('/data', methods=['GET'])
+@app.route('/data', methods=['SET'])
 def returnData():
     
     fileNumber=request.args.get("file")
